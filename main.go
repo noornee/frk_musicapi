@@ -81,8 +81,7 @@ func main() {
 		}
 
 		var data []interface{}
-		data = append(data, music)
-		// fmt.Println(data)
+
 
 		json.Unmarshal(file, &data)
 		data = append(data, music)
