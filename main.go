@@ -10,6 +10,7 @@ import (
 )
 
 type Music struct {
+	ID    int    `json:id`
 	Title string `json:title`
 	Audio string `json:audio`
 	Genre string `json:genre`
@@ -81,7 +82,6 @@ func main() {
 		}
 
 		var data []interface{}
-
 
 		json.Unmarshal(file, &data)
 		data = append(data, music)
