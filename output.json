@@ -1,92 +1,527 @@
 [
 	{
-		"Audio": "http://ecdn31.frkmusic.xyz/allihearx",
+		"ID": 0,
+		"Title": "1 – Set Me Free – NOES",
+		"Audio": "http://ecdn31.frkmusic.xyz/dirty-minds-ep/03",
 		"Genre": "Electronic",
-		"Image": "https://www.songsio.com/wp-content/uploads/All-I-Hear.jpg",
-		"Title": "All I Hear – Single by ALYSSA Download MP3 320Kbps Free – AAC M4A iTunes Plus"
+		"Image": ""
 	},
 	{
-		"Audio": "http://ecdn31.frkmusic.xyz/allihearx",
+		"ID": 0,
+		"Title": "3 – Rules – NOES",
+		"Audio": "http://ecdn31.frkmusic.xyz/dirty-minds-ep/02",
 		"Genre": "Electronic",
-		"Image": "https://www.songsio.com/wp-content/uploads/All-I-Hear.jpg",
-		"Title": "All I Hear – Single by ALYSSA Download MP3 320Kbps Free – AAC M4A iTunes Plus"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "2 – Get Louder – NOES",
+		"Audio": "http://ecdn31.frkmusic.xyz/dirty-minds-ep/01",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "4 – Damn Know – NOES",
+		"Audio": "http://ecdn31.frkmusic.xyz/dirty-minds-ep/04",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "All I Hear – ALYSSA",
+		"Audio": "http://ecdn31.frkmusic.xyz/allihearx",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "1 – ride the dragon – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/01",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "2 – honda (feat. pa salieu) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/02",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "4 – tears in the club (feat. the weeknd) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/03",
+		"Genre": "Bass",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "3 – meta angel – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/04",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "5 – oh my love – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/06",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "6 – pamplemousse – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/05",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "7 – caprisongs interlude (feat. solo) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/07",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "8 – lightbeamers – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/08",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "9 – papi bones (feat. shygirl) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/09",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "10 – which way (feat. dystopia) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/10",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "11 – jealousy (feat. rema) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/11",
+		"Genre": "Bass",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "12 – careless (feat. daniel caesar) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/12",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "13 – minds of men – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/13",
+		"Genre": "Dance",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "14 – track girl interlude – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/14",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "15 – darjeeling (feat jorja smith \u0026 unknown t) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/15",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "16 – christi interlude – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/16",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "17 – thank you song – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/caprisongs/17",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Room for Happiness v3 – Kaskade \u0026 Skylar Grey",
 		"Audio": "http://ecdn31.frkmusic.xyz/roomforhp",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Room-for-Happiness-v3.jpg",
-		"Title": "Room for Happiness v3 – Kaskade \u0026 Skylar Grey"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Who Would Have Thought – Just A Gent \u0026 Arno Faraji",
 		"Audio": "http://ecdn31.frkmusic.xyz/whowoldhvth",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Who-Would-Have-Thought-Single.jpg",
-		"Title": "Who Would Have Thought – Just A Gent \u0026 Arno Faraji"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Llove V3 – Kaskade \u0026 Lipless",
 		"Audio": "http://ecdn31.frkmusic.xyz/llovev3",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Llove-V3.jpg",
-		"Title": "Llove V3 – Kaskade \u0026 Lipless"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Fear Of Dying – Alison Wonderland",
 		"Audio": "http://ecdn31.frkmusic.xyz/feardying",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Fear-Of-Dying-Single.jpg",
-		"Title": "Fear Of Dying – Alison Wonderland"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Fractals – Cadilius",
 		"Audio": "http://ecdn31.frkmusic.xyz/fractalsx",
 		"Genre": "Bass",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Fractals.jpg",
-		"Title": "Fractals – Cadilius"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Clout – NOIXES, Blvkstn \u0026 Jstn Dmnd",
 		"Audio": "http://ecdn31.frkmusic.xyz/clouti",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Clout-1.jpg",
-		"Title": "Clout – NOIXES, Blvkstn \u0026 Jstn Dmnd"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Clock n Lock n – BEATSMASH \u0026 Drama B",
 		"Audio": "http://ecdn31.frkmusic.xyz/clocknlck",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Clock-n-Lock-n.jpg",
-		"Title": "Clock n Lock n – BEATSMASH \u0026 Drama B"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Chroma – Nemesy",
 		"Audio": "http://ecdn31.frkmusic.xyz/chroma0",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Chroma.jpg",
-		"Title": "Chroma – Nemesy"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Character Development – Lit Lords",
 		"Audio": "http://ecdn31.frkmusic.xyz/chrctrdv",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Character-Development.jpg",
-		"Title": "Character Development – Lit Lords"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Be Fine (feat. grey.Png) – 2045, Amina, Anni, IVEN, John Haage \u0026 Stray Point",
 		"Audio": "http://ecdn31.frkmusic.xyz/befine9s",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Be-Fine-feat.-grey.Png.jpg",
-		"Title": "Be Fine (feat. grey.Png) – 2045, Amina, Anni, IVEN, John Haage \u0026 Stray Point"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "The Other Side (feat. Kitty Antix) – Nightlane",
 		"Audio": "http://ecdn31.frkmusic.xyz/theothersd",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/The-Other-Side-feat.-Kitty-Antix.jpg",
-		"Title": "The Other Side (feat. Kitty Antix) – Nightlane"
+		"Image": ""
 	},
 	{
+		"ID": 0,
+		"Title": "Tears In The Club (feat. The Weeknd) – FKA twigs",
 		"Audio": "http://ecdn31.frkmusic.xyz/tearsincl",
 		"Genre": "Electronic",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/Tears-In-The-Club-feat.-The-Weeknd.jpg",
-		"Title": "Tears In The Club (feat. The Weeknd) – FKA twigs"
+		"Image": ""
 	},
 	{
-		"Title": "War With Myself – EP – Shöckface",
+		"ID": 0,
+		"Title": "1 – Poison (feat. Still Haze) – Shöckface \u0026 mark veins",
 		"Audio": "http://ecdn31.frkmusic.xyz/warwmyslf/01",
+		"Genre": "Dance",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "2 – Death of Me – Shöckface \u0026 Lauren Martinez",
+		"Audio": "http://ecdn31.frkmusic.xyz/warwmyslf/02",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "3 – Metanöia – Shöckface",
+		"Audio": "http://ecdn31.frkmusic.xyz/warwmyslf/03",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Satisfy the Rage – Rival \u0026 Micah Martin",
+		"Audio": "http://ecdn31.frkmusic.xyz/satisfy",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "1 – Measure of a Man (feat. Central Cee) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/measure-man/01",
+		"Genre": "Downtempo",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "2 – Measure Of A Man (Cinematic) – FKA twigs",
+		"Audio": "http://ecdn31.frkmusic.xyz/measure-man/02",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "1 – Wish That I – Duumu",
+		"Audio": "http://ecdn31.frkmusic.xyz/after-you-ep/01",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "3 – Not the Same – Duumu",
+		"Audio": "http://ecdn31.frkmusic.xyz/after-you-ep/02",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "2 – Paralysed – Duumu",
+		"Audio": "http://ecdn31.frkmusic.xyz/after-you-ep/03",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "4 – Close To You – Duumu \u0026 ÊMIA",
+		"Audio": "http://ecdn31.frkmusic.xyz/after-you-ep/04",
+		"Genre": "Electronica",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "5 – If I See You – Duumu",
+		"Audio": "http://ecdn31.frkmusic.xyz/after-you-ep/05",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "The Revolution – Miza \u0026 SICKVED",
+		"Audio": "http://ecdn31.frkmusic.xyz/therevl",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Everyday (feat. Macca Wiles) – Noise Cans",
+		"Audio": "http://ecdn31.frkmusic.xyz/everydy",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Fizzy – ALEXEMELYA \u0026 Kazantzakis",
+		"Audio": "http://ecdn31.frkmusic.xyz/fizzy90",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "I’m Lost – NXTSUO",
+		"Audio": "http://ecdn31.frkmusic.xyz/imlost09",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Spirals (feat. Nick Luebke) – Mazare",
+		"Audio": "http://ecdn31.frkmusic.xyz/spiralsn",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "No Mercy – Sneaky Ollie, BLVZE \u0026 Jstn Dmnd",
+		"Audio": "http://ecdn31.frkmusic.xyz/nomerc1y",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Rise – NOVA \u0026 Agassi",
+		"Audio": "http://ecdn31.frkmusic.xyz/ris1e",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Ghost (feat. Daisy Phillips) – MIHXI \u0026 Carpo",
+		"Audio": "http://ecdn31.frkmusic.xyz/ghostdais",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Destiny – Poylow, Harry Taylor \u0026 Godmode",
+		"Audio": "http://ecdn31.frkmusic.xyz/destinyi",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Moment – JB Hain",
+		"Audio": "http://ecdn31.frkmusic.xyz/momen3td",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Burn – Lit Lords",
+		"Audio": "http://ecdn31.frkmusic.xyz/burn1so",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Molotov – Bodykit \u0026 Hydrin",
+		"Audio": "http://ecdn31.frkmusic.xyz/molotv",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "What Would It Mean (feat. Nicole Apollonio) – H4RRIS",
+		"Audio": "http://ecdn31.frkmusic.xyz/whatwd",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "All For You – The FifthGuys, Salvo \u0026 M.I.M.E",
+		"Audio": "http://ecdn31.frkmusic.xyz/allforyh",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Sad – Yukyl",
+		"Audio": "http://ecdn31.frkmusic.xyz/sadde",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Vision pt. II – Lost Sky \u0026 She Is Jules",
+		"Audio": "http://ecdn31.frkmusic.xyz/visione",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "PARASITE – KLOUD",
+		"Audio": "http://ecdn31.frkmusic.xyz/parasitekld",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Ancestor – Banyan",
+		"Audio": "http://ecdn31.frkmusic.xyz/ancstr",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Do It Again – Zack Merci \u0026 William Nesmith",
+		"Audio": "http://ecdn31.frkmusic.xyz/doitagnsp",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Hide This Pain – jøno \u0026 Britto",
+		"Audio": "http://ecdn31.frkmusic.xyz/hidethispl",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Roll the Dice – PHI NIX",
+		"Audio": "http://ecdn31.frkmusic.xyz/rolldiceks",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Stay – SirensCeol",
+		"Audio": "http://ecdn31.frkmusic.xyz/stay0s",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Sweetie Velvet – Systile",
+		"Audio": "http://ecdn31.frkmusic.xyz/sweetiesvlv",
 		"Genre": "Bass",
-		"Image": "https://www.frkmusic.site/wp-content/uploads/War-With-Myself-EP.jpg"
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Crystal Nova (feat. DEATHORIA) – Bronzy",
+		"Audio": "http://ecdn31.frkmusic.xyz/crystlnov",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "1 – TAKETHISWAY – DJ Ride",
+		"Audio": "http://ecdn31.frkmusic.xyz/take-this-way-s/01",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "2 – NEEDSMOREDISTORTION – DJ Ride",
+		"Audio": "http://ecdn31.frkmusic.xyz/take-this-way-s/02",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "The Light – SHARPS",
+		"Audio": "http://ecdn31.frkmusic.xyz/thelight0",
+		"Genre": "Electronic",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Dies Irae – Rival, Laura Brehm \u0026 M.I.M.E",
+		"Audio": "http://ecdn31.frkmusic.xyz/diesire",
+		"Genre": "Bass",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "GoodBye – SouMix",
+		"Audio": "http://ecdn31.frkmusic.xyz/goodbyex",
+		"Genre": "Electronica",
+		"Image": ""
+	},
+	{
+		"ID": 0,
+		"Title": "Moonlight – Desren",
+		"Audio": "http://ecdn31.frkmusic.xyz/moonlights",
+		"Genre": "Electronic",
+		"Image": ""
 	}
 ]
