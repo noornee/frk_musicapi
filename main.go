@@ -2,9 +2,10 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
-	"strings"
+	"regexp"
 
 	"github.com/gocolly/colly"
 )
@@ -24,38 +25,29 @@ func main() {
 
 	fetchMusic := c.Clone()
 
-	// ch := make(chan map[string]string)
-
 	ch_title := make(chan string)
 	ch_link := make(chan string)
 	ch_image := make(chan string)
 
-	// array := make(chan []interface{})
-
 	c.OnHTML("article.vce-post > div > a", func(e *colly.HTMLElement) {
 		link := e.Attr("href")
-		title := e.Attr("title")
+		fetchMusic.Visit(link)
+	})
 
-		if strings.Contains(title, "CAPRISONGS") {
-			return
-		}
+	fetchMusic.OnHTML("div.list-group > p:nth-child(2) > a", func(e *colly.HTMLElement) {
+
+		pattern := regexp.MustCompile(`^[^#\n].*`)
+		title := pattern.FindAllString(e.Text, -1)[0]
+		link := e.Attr("href")
+
+		go func() {
+			ch_link <- link
+		}()
 
 		go func() {
 			ch_title <- title
 		}()
 
-		fetchMusic.Visit(link)
-	})
-
-	fetchMusic.OnHTML("div.list-group > p:nth-child(2) > a", func(e *colly.HTMLElement) {
-		link := e.Attr("href")
-		if strings.Contains(link, "http://ecdn31.frkmusic.xyz/caprisongs/") {
-			return
-		}
-
-		go func() {
-			ch_link <- link
-		}()
 	})
 
 	// gets the music image cover
@@ -69,19 +61,23 @@ func main() {
 	fetchMusic.OnHTML("div > h2:nth-child(6) > span > span > span:nth-child(2)", func(e *colly.HTMLElement) {
 		genre := e.Text
 
-		music := Music{
+		music := &Music{
 			Title: <-ch_title,
 			Genre: genre,
 			Audio: <-ch_link,
 			Image: <-ch_image,
 		}
 
+		fmt.Println(music)
+
 		file, err := ioutil.ReadFile("output.json")
 		if err != nil {
 			log.Fatal(err)
 		}
 
-		var data []interface{}
+		// var data []interface{}
+		var data []*Music
+
 
 		json.Unmarshal(file, &data)
 		data = append(data, music)
