@@ -89,6 +89,9 @@ func main() {
 		}
 	})
 
-	c.Visit("https://www.songsio.com/genre/all/electronic/")
+	// c.Visit("https://www.songsio.com/genre/all/electronic/")
+	for i := 1; i < 6; i++ {
+		c.Visit(fmt.Sprintf("https://www.songsio.com/genre/all/electronic/page/%d", i))
+	}
 
 }
