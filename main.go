@@ -27,7 +27,7 @@ func main() {
 
 	ch_title := make(chan string)
 	ch_link := make(chan string)
-	ch_image := make(chan string)
+	// ch_image := make(chan string)
 
 	c.OnHTML("article.vce-post > div > a", func(e *colly.HTMLElement) {
 		link := e.Attr("href")
@@ -51,12 +51,12 @@ func main() {
 	})
 
 	// gets the music image cover
-	fetchMusic.OnHTML("div > p > img", func(e *colly.HTMLElement) {
-		image := e.Attr("src")
-		go func() {
-			ch_image <- image
-		}()
-	})
+	// fetchMusic.OnHTML("div > p > img", func(e *colly.HTMLElement) {
+	// 	image := e.Attr("src")
+	// 	go func() {
+	// 		ch_image <- image
+	// 	}()
+	// })
 
 	fetchMusic.OnHTML("div > h2:nth-child(6) > span > span > span:nth-child(2)", func(e *colly.HTMLElement) {
 		genre := e.Text
@@ -65,10 +65,8 @@ func main() {
 			Title: <-ch_title,
 			Genre: genre,
 			Audio: <-ch_link,
-			Image: <-ch_image,
+			// Image: <-ch_image,
 		}
-
-		fmt.Println(music)
 
 		file, err := ioutil.ReadFile("output.json")
 		if err != nil {
@@ -77,7 +75,6 @@ func main() {
 
 		// var data []interface{}
 		var data []*Music
-
 
 		json.Unmarshal(file, &data)
 		data = append(data, music)
