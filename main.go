@@ -5,20 +5,33 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"net/http"
 	"regexp"
 
 	"github.com/gocolly/colly"
 )
 
 type Music struct {
-	ID    int    `json:id`
+	// ID    int    `json:id`
 	Title string `json:title`
 	Audio string `json:audio`
 	Genre string `json:genre`
-	Image string `json:image`
+	// Image string `json:image`
+}
+
+func renderJson(rw http.ResponseWriter, r *http.Request) {
+	dataByte, _ := ioutil.ReadFile("output.json")
+	var music *Music
+	json.Unmarshal(dataByte, &music)
+	rw.Header().Set("Content-Type", "application/json")
+	rw.Write(dataByte)
 }
 
 func main() {
+
+	http.HandleFunc("/", renderJson)
+	log.Fatal(http.ListenAndServe(":8000", nil))
+
 	c := colly.NewCollector(
 		colly.AllowedDomains("www.songsio.com"),
 	)
